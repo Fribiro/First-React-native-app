@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, StatusBar, StyleSheet, Dimensions, TextInput } from 'react-native';
 import colors from '../misc/colors';
+import RoundIconBtn from '../components/RoundIconBtn';
 
 const Intro = ({ onFinish }) => {
     const [name, setName] = useState('');
